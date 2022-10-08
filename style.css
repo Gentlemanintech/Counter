@@ -1,0 +1,109 @@
+body {
+ background-image: url(img/download.jfif);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.container {
+    margin: 80px auto 190px;
+}
+
+.sub-container {
+    box-sizing: border-box;
+    border: 5px solid white;
+    border-radius: 25px;
+    width: 90%;
+    height: 450px;
+    margin: 50px auto;
+    background-color: black;
+}
+
+marquee {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 5px auto;
+    word-spacing: 3px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 45px;
+    margin: 30px 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#counter {
+    box-sizing: border-box;
+    border: 2px solid whitesmoke;
+    height: 120px;
+    width: 90%;
+    margin: 40px auto 20px;
+    text-align: right;
+    background-color: #00203FFF;
+    background: #00203FFF;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+
+.sm-btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+
+.sm-btn button {
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px 2px;
+  border-radius: 50%;
+  color: white;
+  background-color: #00203FFF;
+  -webkit-box-shadow: 4px 6px 3px rgb(136, 135, 135);
+  -moz-box-shadow: 4px 6px 3px rgb(136, 135, 135);
+  box-shadow: 4px 6px 3px rgb(136, 135, 135);
+}
+
+.lg-btn {
+    text-align: center;
+}
+
+#click-btn {
+    padding: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #00203FFF;
+    -webkit-box-shadow: 4px 6px 3px rgb(136, 135, 135);
+  -moz-box-shadow: 4px 6px 3px rgb(136, 135, 135);
+  box-shadow: 4px 6px 3px rgb(136, 135, 135);
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        margin: 50px auto;
+    }
+    
+    .sm-btn {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 60px;
+    }
+
+    #click-btn {
+        padding: 80px;
+        border-radius: 50%;
+        border: none;
+    }
+  }
